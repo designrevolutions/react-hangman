@@ -1,0 +1,13 @@
+3. READ all other requirements.
+
+4. We split the code into simple components - like header. We organise into folders.
+
+5. Add comments in full.
+
+6. ReadMe needs to be complete - ask ChatGPT to make.
+
+7. We go through checklist for the task and make sure all points have been done.
+
+----------
+Quickly get onto T49 then T51 part 1
+----------

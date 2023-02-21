@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.container {
+  margin: 20px;
+}
+
+.guess {
+  font-size: 72px; /* set the font size to 72 pixels */
+  letter-spacing: 20px; /* set the letter spacing to 20 pixels */
+  text-align: center;
+}
+
+.incorrect {
+  font-size: 1.2em; /* set the font size to 72 pixels */
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inTheMiddle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* I need ot make the images smaller. I'm just being lazy here and changing the percentge size */
+.smallerImage {
+  width: 25%;
+}
+
+.inTheMiddleBlock {
+  text-align: center;
+}
+
+.inTheMiddleBlock > * {
+  margin: 0 auto;
+  display: block;
+}
